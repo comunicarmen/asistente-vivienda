@@ -1,0 +1,38 @@
+TÍTULO: Ayudas al alquiler y compra de vivienda en la Comunidad de Madrid
+FUENTE: Portal de Vivienda de la Comunidad de Madrid + BOE
+CCAA: Madrid
+TIPO: alquiler, compra
+VIGENCIA: mayo 2026
+
+---
+
+## Bono Alquiler Joven (estatal, aplicable en Madrid)
+- Regulación: Real Decreto 42/2022 (BOE-A-2022-802)
+- Cuantía: 250 euros mensuales durante 2 años
+- Edad: 18 a 35 años
+- Ingresos: máximo 3×IPREM (21.600 euros/año en 2026)
+- Tramitación: Consejería de Vivienda de la Comunidad de Madrid
+
+---
+
+## Emancipación Joven Madrid (autonómica)
+- Cuantía: hasta 6.000 euros anuales (500 euros/mes)
+- Edad: 18 a 35 años
+- Ingresos: máximo 30.000 euros anuales
+- Vivienda: alquiler en la Comunidad de Madrid
+- Convocatoria: anual
+- Compatibilidad: compatible con el Bono Alquiler Joven estatal
+
+---
+
+## Garantía Vivienda Madrid (aval para compra)
+- Tipo: aval hipotecario autonómico complementario al ICO
+- Beneficiarios: hasta 40 años, primera vivienda habitual
+- Precio máximo vivienda: hasta 350.000 euros en Madrid ciudad
+
+---
+
+## Deducción Autonómica IRPF Alquiler (Madrid)
+- Porcentaje: 30% de las cantidades satisfechas
+- Límite: 1.000 euros anuales (1.500 si discapacidad)
+- Requisitos: ingresos inferiores a 25.620 euros (individual)

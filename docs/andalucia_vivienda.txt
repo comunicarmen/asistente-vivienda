@@ -1,0 +1,29 @@
+TÍTULO: Ayudas al alquiler y compra de vivienda en Andalucía
+FUENTE: Junta de Andalucía - Consejería de Fomento + BOE
+CCAA: Andalucía
+TIPO: alquiler, compra
+VIGENCIA: mayo 2026
+
+---
+
+## Bono Alquiler Joven (estatal, aplicable en Andalucía)
+- Regulación: Real Decreto 42/2022 (BOE-A-2022-802)
+- Cuantía: 250 euros mensuales durante 2 años
+- Tramitación: Agencia de Vivienda y Rehabilitación de Andalucía (AVRA)
+
+---
+
+## Programa de Fomento del Alquiler (Andalucía)
+- Cuantía: hasta el 40% de la renta mensual
+- Requisitos:
+  * Ingresos inferiores a 3×IPREM
+  * Vivienda habitual en Andalucía
+  * Alquiler máximo: 900 euros/mes en municipios grandes
+
+---
+
+## Garantía Vivienda Andalucía (compra)
+- Tipo: aval hipotecario autonómico
+- Beneficiarios: menores de 40 años, primera vivienda habitual en Andalucía
+- Cubre: hasta el 20% adicional al aval ICO estatal
+- Tramitación: AVRA y entidades financieras colaboradoras

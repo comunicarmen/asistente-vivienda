@@ -1,0 +1,57 @@
+TÍTULO: Ayudas al alquiler y compra de vivienda en el País Vasco
+FUENTE: Departamento de Vivienda del Gobierno Vasco / Etxebide + BOE
+CCAA: País Vasco
+TIPO: alquiler, compra, rehabilitación
+VIGENCIA: mayo 2026
+
+---
+
+## Gaztelagun (autonómica — sustituye al Bono Alquiler Joven estatal en País Vasco)
+- Regulación: Gobierno Vasco / Etxebide
+- Cuantía: hasta 250 euros mensuales
+- Edad: 18 a 35 años
+- Requisitos:
+  * Empadronado en el País Vasco
+  * Alquiler de vivienda habitual
+  * Ingresos según baremo vasco
+- Compatibilidades: SUSTITUTIVO del Bono Alquiler Joven estatal en País Vasco
+- Tramitación: Departamento de Vivienda del Gobierno Vasco / Etxebide
+- Web: etxebide.euskadi.eus
+
+---
+
+## Prestación Complementaria de Vivienda (PCV) — País Vasco
+- Cuantía: complemento variable según ingresos y renta
+- Requisitos:
+  * Percibir Renta de Garantía de Ingresos (RGI)
+  * Residencia en País Vasco
+  * Alquiler de vivienda habitual
+- Tramitación: Lanbide (Servicio Vasco de Empleo)
+
+---
+
+## Programa de Vivienda Protegida en Alquiler (País Vasco)
+- Cuantía: alquileres por debajo de mercado (entre 300 y 600 euros/mes según zona)
+- Acceso: inscripción en el registro Etxebide
+- Requisitos:
+  * No ser propietario de otra vivienda
+  * Ingresos dentro de los límites del baremo
+  * Empadronamiento en País Vasco
+- Tramitación: Etxebide
+
+---
+
+## Ayuda a la Compra de Primera Vivienda (País Vasco)
+- Tipo: subvención directa o aval hipotecario
+- Cuantía: variable según programa anual
+- Beneficiarios: menores de 35 años, primera vivienda habitual
+- Tramitación: Etxebide y entidades financieras adheridas
+- Convocatoria: anual
+
+---
+
+## Deducción Autonómica IRPF Alquiler (País Vasco)
+- Porcentaje: 20% de las cantidades satisfechas
+- Límite: 1.600 euros anuales
+- Requisitos: vivienda habitual, ingresos dentro de límites del baremo vasco
+- Nota: el sistema fiscal vasco (Haciendas Forales) es diferente al estatal

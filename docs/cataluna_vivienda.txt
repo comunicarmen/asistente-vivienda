@@ -1,0 +1,59 @@
+TÍTULO: Ayudas al alquiler y compra de vivienda en Cataluña
+FUENTE: Agencia de l'Habitatge de Catalunya + BOE
+CCAA: Cataluña
+TIPO: alquiler, compra, rehabilitación
+VIGENCIA: mayo 2026
+
+---
+
+## Bono Alquiler Joven (estatal, aplicable en Cataluña)
+- Regulación: Real Decreto 42/2022 (BOE-A-2022-802)
+- Cuantía: 250 euros mensuales durante 2 años
+- Edad: 18 a 35 años
+- Ingresos: máximo 3×IPREM (21.600 euros/año en 2026)
+- Tramitación: Agencia de l'Habitatge de Catalunya
+
+---
+
+## Ayuda al Alquiler Cataluña (autonómica)
+- Cuantía: hasta el 40% de la renta mensual
+- Requisitos:
+  * Ingresos inferiores a 2,5 veces el IRSC (Indicador Renda Suficiència Catalunya)
+  * Vivienda habitual en Cataluña
+  * Contrato de alquiler vigente y registrado
+- Tramitación: Agencia de l'Habitatge de Catalunya
+- Web: habitatge.gencat.cat
+
+---
+
+## Programa de Ayudas al Alquiler Social (Cataluña)
+- Cuantía: hasta 200 euros mensuales
+- Requisitos:
+  * Situación de especial vulnerabilidad
+  * Ingresos muy bajos (menos de 1×IRSC)
+  * Residencia legal en Cataluña
+- Tramitación: Servicios Sociales municipales o Agencia de l'Habitatge
+
+---
+
+## Aval del Institut Català del Sòl (INCASÒL) para compra
+- Tipo: aval hipotecario autonómico
+- Beneficiarios: jóvenes hasta 35 años, primera vivienda habitual en Cataluña
+- Complementa el aval ICO estatal
+- Tramitación: entidades financieras adheridas al convenio INCASÒL
+
+---
+
+## Deducción Autonómica IRPF Alquiler (Cataluña)
+- Porcentaje: 10% de las cantidades satisfechas
+- Límite: 300 euros anuales (600 euros con familia numerosa o discapacidad)
+- Requisitos: ingresos inferiores a 20.000 euros anuales (individual)
+- Vivienda habitual en Cataluña
+
+---
+
+## Rehabilitación y Regeneración Urbana (Cataluña)
+- Ayudas Next Generation EU canalizadas por la Generalitat
+- Hasta 80% del coste de obras para mejora energética
+- Tramitación: Agencia de l'Habitatge de Catalunya
+- Edificios con certificación energética D o inferior

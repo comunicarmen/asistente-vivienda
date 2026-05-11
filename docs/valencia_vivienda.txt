@@ -1,0 +1,61 @@
+TÍTULO: Ayudas al alquiler y compra de vivienda en la Comunitat Valenciana
+FUENTE: Conselleria d'Habitatge i Arquitectura Bioclimàtica + BOE
+CCAA: Comunitat Valenciana
+TIPO: alquiler, compra, rehabilitación
+VIGENCIA: mayo 2026
+
+---
+
+## Bono Alquiler Joven (estatal, aplicable en Comunitat Valenciana)
+- Regulación: Real Decreto 42/2022 (BOE-A-2022-802)
+- Cuantía: 250 euros mensuales durante 2 años
+- Edad: 18 a 35 años
+- Ingresos: máximo 3×IPREM (21.600 euros/año en 2026)
+- Tramitación: Conselleria d'Habitatge de la Generalitat Valenciana
+- Web: habitatge.gva.es
+
+---
+
+## Ayuda Jove al Lloguer (autonómica Comunitat Valenciana)
+- Cuantía: hasta 250 euros mensuales
+- Edad: 18 a 35 años
+- Requisitos:
+  * Empadronado en la Comunitat Valenciana
+  * Ingresos máximo 3×IPREM
+  * Contrato de alquiler vigente
+  * Vivienda habitual y permanente
+- Compatibilidad: compatible con el Bono Alquiler Joven estatal
+- Tramitación: Conselleria d'Habitatge
+
+---
+
+## Programa de Ayudas al Alquiler General (Comunitat Valenciana)
+- Cuantía: hasta el 40% de la renta mensual
+- Requisitos:
+  * Ingresos inferiores a 3×IPREM
+  * Vivienda habitual en Comunitat Valenciana
+  * Alquiler máximo según municipio
+
+---
+
+## Aval Jove para Compra (Comunitat Valenciana)
+- Tipo: aval hipotecario autonómico
+- Beneficiarios: menores de 35 años, primera vivienda habitual
+- Cubre: hasta el 20% adicional al aval ICO estatal
+- Tramitación: Institut Valencià de Finances (IVF) y entidades adheridas
+
+---
+
+## Deducción Autonómica IRPF Alquiler (Comunitat Valenciana)
+- Porcentaje: 15% de las cantidades satisfechas
+- Límite: 550 euros anuales (700 euros con discapacidad o familia numerosa)
+- Requisitos: ingresos inferiores a 25.000 euros (individual) o 40.000 (conjunta)
+- Vivienda habitual en Comunitat Valenciana
+
+---
+
+## Plan Rehabilita CV (Comunitat Valenciana)
+- Ayudas Next Generation EU canalizadas por la Generalitat Valenciana
+- Hasta 80% para mejora de eficiencia energética
+- Tramitación: Conselleria d'Habitatge
+- Edificios con más de 20 años

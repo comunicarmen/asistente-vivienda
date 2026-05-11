@@ -1,0 +1,59 @@
+TÍTULO: Normativa estatal de vivienda e indicadores de referencia
+FUENTE: BOE, Ministerio de Transportes y Movilidad Sostenible
+CCAA: estatal
+TIPO: alquiler, compra, rehabilitación
+VIGENCIA: mayo 2026
+
+---
+
+## IPREM 2025 (Indicador Público de Renta de Efectos Múltiples)
+- Valor mensual: 600 euros
+- Valor anual (14 pagas): 8.400 euros
+- Valor anual (12 pagas): 7.200 euros
+
+---
+
+## Bono Alquiler Joven (estatal, aplicable en todas las CCAA)
+- Regulación: Real Decreto 42/2022, de 18 de enero (BOE-A-2022-802)
+- Cuantía: 250 euros mensuales durante 2 años
+- Requisitos:
+  * Edad: entre 18 y 35 años
+  * Ingresos anuales brutos: máximo 3 veces el IPREM (21.600 euros en 2026)
+  * Contrato de alquiler en vigor
+  * Vivienda habitual y permanente
+- Dónde tramitar: Comunidad Autónoma correspondiente
+
+---
+
+## Ayuda General al Alquiler (Plan Estatal de Vivienda 2022-2025)
+- Regulación: Real Decreto 42/2022 (BOE-A-2022-802)
+- Vigencia: 2025-2028 (prorrogada)
+- Cuantía: hasta el 50% del alquiler mensual, máximo 5 años
+- Requisitos:
+  * Ingresos anuales inferiores a 3 veces el IPREM
+  * Vivienda habitual y permanente
+
+---
+
+## Aval ICO Primera Vivienda (compra)
+- Regulación: RD-ley 1/2025
+- Cuantía del aval: hasta el 20% del precio de compra
+- Máximo precio vivienda: 300.000 euros
+- Requisitos:
+  * Primera vivienda habitual
+  * No ser propietario de otra vivienda en España
+  * Menores de 35 años o familias con hijos menores
+
+---
+
+## Deducción IRPF Alquiler (contratos anteriores a 2015)
+- Base: 10,5% de las cantidades pagadas en concepto de alquiler
+- Límite base deducción: 9.040 euros anuales
+- Requisito: contrato anterior al 1 de enero de 2015
+
+---
+
+## Ayuda Alquiler Pensionistas No Contributivos
+- Cuantía: 525 euros anuales (pago único)
+- Requisito: ser perceptor de pensión no contributiva de jubilación o invalidez
+- Renovación: automática anual
