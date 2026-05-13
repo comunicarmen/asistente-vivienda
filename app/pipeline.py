@@ -1,22 +1,22 @@
 from pathlib import Path
 from dotenv import load_dotenv
 from langchain_anthropic import ChatAnthropic
-from langchain_community.vectorstores import Chroma
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
 load_dotenv()
 
-CHROMA_DIR = Path(__file__).parent.parent / "chroma_db"
+FAISS_DIR = Path(__file__).parent.parent / "faiss_db"
 DOCS_DIR = Path(__file__).parent.parent / "docs"
 
-# URLs oficiales por fuente de documento
 URLS_OFICIALES = {
-    "andalucia_vivienda":     "https://www.juntadeandalucia.es/fomentoinfraestructurasyordenaciondelterritorio/vivienda",
-    "madrid_vivienda":        "https://www.comunidad.madrid/servicios/vivienda",
-    "normativa_estatal":      "https://www.mivau.gob.es/vivienda/ayudas-y-financiacion",
-    "cataluna_vivienda":      "https://habitatge.gencat.cat/ca/inici",
-    "pais_vasco_vivienda":    "https://www.etxebide.euskadi.eus",
-    "valencia_vivienda":      "https://habitatge.gva.es/es",
+    "andalucia_vivienda":  "https://www.juntadeandalucia.es/fomentoinfraestructurasyordenaciondelterritorio/vivienda",
+    "madrid_vivienda":     "https://www.comunidad.madrid/servicios/vivienda",
+    "normativa_estatal":   "https://www.mivau.gob.es/vivienda/ayudas-y-financiacion",
+    "cataluna_vivienda":   "https://habitatge.gencat.cat/ca/inici",
+    "pais_vasco_vivienda": "https://www.etxebide.euskadi.eus",
+    "valencia_vivienda":   "https://habitatge.gva.es/es",
 }
 
 def obtener_url(nombre_archivo):
@@ -34,10 +34,7 @@ COMO DEBES RESPONDER:
 1. Extrae el perfil del usuario: edad, CCAA donde vive, objetivo (alquiler/compra/rehabilitacion) e ingresos aproximados.
 2. Si falta informacion clave, pregunta de forma amigable (una sola pregunta a la vez).
 3. Con el perfil completo, lista las ayudas que le corresponden: nombre, cuantia, requisitos y fuente oficial.
-4. Cita siempre la fuente (BOE, Ministerio, Comunidad Autonoma).
-5. Para cada ayuda mencionada, incluye un link clicable en formato Markdown al organismo oficial, 
-   usando la URL que aparece en los metadatos del contexto recuperado. Formato: [Ver información oficial](URL)
-6. Si hay formularios o requisitos detallados, enlaza directamente a la página donde el usuario puede solicitarlo.
+4. Para cada ayuda incluye un link clicable: [Ver informacion oficial](URL)
 
 GUARDARRAILES:
 - NUNCA das asesoria juridica. Orientas, no asesoras.
@@ -46,7 +43,7 @@ GUARDARRAILES:
 - No inventes URLs. Usa solo las que aparecen en el contexto recuperado.
 
 Al final de cada respuesta incluye siempre:
-⚠️ *Información orientativa. Verifica siempre en el organismo competente de tu comunidad autónoma.*
+⚠️ *Informacion orientativa. Verifica siempre en el organismo competente de tu comunidad autonoma.*
 
 CONTEXTO DE NORMATIVA RECUPERADA:
 {contexto}
@@ -54,6 +51,11 @@ CONTEXTO DE NORMATIVA RECUPERADA:
 
 def construir_base():
     import glob
+    embeddings = HuggingFaceEmbeddings(
+        model_name="all-MiniLM-L6-v2",
+        model_kwargs={"device": "cpu"},
+        encode_kwargs={"normalize_embeddings": True}
+    )
     archivos = glob.glob(str(DOCS_DIR / "*.txt"))
     documentos = []
     for archivo in archivos:
@@ -67,31 +69,32 @@ def construir_base():
             chunk = texto[start:end]
             documentos.append(Document(
                 page_content=chunk,
-                metadata={
-                    "fuente": nombre,
-                    "url": url,  # <-- URL añadida aquí
-                }
+                metadata={"fuente": nombre, "url": url}
             ))
             start = end - 100
-    vectorstore = Chroma.from_documents(
-        documents=documentos,
-        persist_directory=str(CHROMA_DIR),
-        collection_name="normativa_vivienda"
-    )
+    vectorstore = FAISS.from_documents(documentos, embeddings)
+    FAISS_DIR.mkdir(parents=True, exist_ok=True)
+    vectorstore.save_local(str(FAISS_DIR))
     return vectorstore
 
 def crear_asistente():
+    embeddings = HuggingFaceEmbeddings(
+        model_name="all-MiniLM-L6-v2",
+        model_kwargs={"device": "cpu"},
+        encode_kwargs={"normalize_embeddings": True}
+    )
     llm = ChatAnthropic(
         model="claude-sonnet-4-5",
         max_tokens=1500,
         temperature=0.1,
     )
-    if not CHROMA_DIR.exists() or not any(CHROMA_DIR.iterdir()):
+    if not FAISS_DIR.exists():
         vectorstore = construir_base()
     else:
-        vectorstore = Chroma(
-            persist_directory=str(CHROMA_DIR),
-            collection_name="normativa_vivienda"
+        vectorstore = FAISS.load_local(
+            str(FAISS_DIR),
+            embeddings,
+            allow_dangerous_deserialization=True
         )
     retriever = vectorstore.as_retriever(
         search_type="similarity",

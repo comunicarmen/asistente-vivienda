@@ -3,5 +3,6 @@ anthropic>=0.52.0
 langchain==0.2.1
 langchain-anthropic==0.1.15
 langchain-community==0.2.4
-chromadb==0.4.24
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
 python-dotenv>=1.0.0
