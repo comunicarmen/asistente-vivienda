@@ -1,7 +1,7 @@
 from pathlib import Path
 from dotenv import load_dotenv
 from langchain_anthropic import ChatAnthropic
-from langchain_chroma import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
 load_dotenv()
